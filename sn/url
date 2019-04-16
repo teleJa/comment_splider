@@ -1,0 +1,10 @@
+# 评价较多的店铺(苏宁推荐)
+https://tuijian.suning.com/recommend-portal/recommendv2/biz.jsonp?parameter=%E5%8D%8E%E4%B8%BA&sceneIds=2-1&count=10
+
+# 评价
+https://review.suning.com/ajax/cluster_review_lists/general-30259269-000000010748901691-0000000000-total-1-default-10-----reviewList.htm?callback=reviewList
+
+# clusterid
+# 在查看全部评论的href中,实际测试发现是执行js加上的,两种方案
+# 1.去匹配js中的clusterId
+# 2.或者用selenium/phantomjs去请求执行js之后的页面然后解析html获得href
